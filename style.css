@@ -1,0 +1,95 @@
+
+*{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400PX;
+    font-style: normal;;
+}
+body{
+    background-image: #FFF8F3;
+}
+
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+}
+
+
+/*El código lee de ARRIBA para ABAJO*/
+.lead{
+      font-family: "Dosis", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700%;
+      font-style: normal;
+}
+
+
+header{
+    background-color: #F7E7DC;
+}
+
+header span{
+    color: black;
+}
+
+.nav-item a{
+    color: black;
+    font-size: 20px;
+}
+
+#nav-button{
+    background-color: #758694;
+    color: beige;
+}
+
+.nav-item a:visited{
+    color: black;
+}
+
+.nav-item a:hover{
+    color: #da6ea9;
+}
+
+.d-block{
+    border-radius: 30%;
+}
+.d-block:hover{
+    background-color: #752727;
+}
+
+#profesion{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.bi{
+    color: #758694;
+}
+
+
+.proyecto-pinterest{
+    background-image: url('/images/clon-pinterest.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.proyecto-pinterest::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+.proyecto-pinterest .d-flex.flex-column {
+    position: relative;
+    z-index: 2; 
+}
