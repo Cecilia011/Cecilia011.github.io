@@ -93,3 +93,21 @@ header span{
     position: relative;
     z-index: 2; 
 }
+
+.icono-contacto{
+    font-size: 2rem;
+    color: pink;
+}
+
+/*El atributo container hace que el tamaño del objeto se acomode en la pagina*/
+
+footer{
+    background-color: #405D72;
+    color: #FFF8F3;
+}
+
+footer p a{
+    color: #FFF8F3; 
+}
+
+
