@@ -3,20 +3,52 @@
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 400PX;
-    font-style: normal;;
-}
-body{
-    background-image: #FFF8F3;
-}
-
-
-p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 15px;
     font-style: normal;
 }
 
+
+body{
+    background-color: #BB9AB1;
+}
+
+.contenedorSobreMi{
+    padding: 30px 30px;
+    background-image: url('/assets/.jpg');
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen dentro del contenedor*/
+}
+
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+}
+
+#app{
+    color: #362736;
+}
+
+.descripcion {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+img {
+    /*
+    Este codigo adapta la imagen a su tamaño ideal 
+    max-width: 100%;
+    height: auto; */
+    border-radius: 20%;
+  }
+
+  
 
 /*El código lee de ARRIBA para ABAJO*/
 .lead{
@@ -28,29 +60,29 @@ p {
 
 
 header{
-    background-color: #F7E7DC;
+    background-color: #987D9A;
 }
 
 header span{
-    color: black;
+    color: #FEFBD8;
 }
 
 .nav-item a{
-    color: black;
+    color: #FEFBD8;
     font-size: 20px;
 }
 
 #nav-button{
-    background-color: #758694;
-    color: beige;
+    background-color: #EECEB9;
+    color: #FEFBD8;
 }
 
 .nav-item a:visited{
-    color: black;
+    color: #FEFBD8;
 }
 
 .nav-item a:hover{
-    color: #da6ea9;
+    color: #EECEB9;
 }
 
 .d-block{
@@ -60,6 +92,14 @@ header span{
     background-color: #752727;
 }
 
+
+/*.buttonCv{
+     margin-left: -20px;  Mueve el objeto 20 píxeles a la izquierda 
+        border: 1px solid #362736; Borde sólido de 2px y color 
+        background-color: #EECEB9; 
+        color: #513b52
+      } 
+*/
 #profesion{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -96,13 +136,13 @@ header span{
 
 .icono-contacto{
     font-size: 2rem;
-    color: pink;
+    color: #987D9A;
 }
 
 /*El atributo container hace que el tamaño del objeto se acomode en la pagina*/
 
 footer{
-    background-color: #405D72;
+    background-color: #987D9A;
     color: #FFF8F3;
 }
 
@@ -110,4 +150,23 @@ footer p a{
     color: #FFF8F3; 
 }
 
+.tituloHabilidades{
+    color:#59405a
+}
 
+p{
+    font-family: "Dosis", sans-serif;
+      font-weight: 400px;
+      font-size: 18px;
+      font-style: normal;
+}
+
+#habilidades {
+
+    background-image: url(/assets/fondoHabili.avif);
+
+}
+
+.divContacto{
+    background-color: #EECEB9;
+}

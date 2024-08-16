@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- CDN Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -13,21 +14,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<!--iconos bootstrap-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-<link rel=
-"stylesheet" 
-href
-=
-"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
->
+    <!--iconos bootstrap-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
-  
-<link rel="shortcut icon" href="/assets/code-slash.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/code-slash.svg" type="image/x-icon">
     <title>Cecilia Angeles</title>
 </head>
 
@@ -51,13 +46,34 @@ href
   </header>
 
   <main>
-
+    <section id="sobre-mi" class="px-4 py-5">
+      <div class="container contenedorSobreMi">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h1 style="color: #765877;">Gabriela Cecilia Angeles Gomez</h1>
+            <div id="app"></div>
+            <p class="lead mb-4 descripcion">¡Hola! Soy Gabriela Cecilia Ángeles Gómez, una apasionada estudiante de lenguas en la UAEMex, actualmente en el séptimo semestre. Tengo 21 años y un profundo interés en la comunicación intercultural, lo que me ha llevado a alcanzar un nivel intermedio en inglés y un nivel básico en francés.
+              <br>
+              Además de mi formación en lenguas, también tengo una sólida base en programación, habiendo estudiado una carrera técnica durante el bachillerato. Me gradué con honores y desarrollé habilidades tanto en frontend como en backend. Aunque me estoy especializando en backend, sigo ampliando mis conocimientos en frontend a través de diversos cursos.
+              <br>
+              En mi tiempo libre, disfruto haciendo ejercicio y explorando las diferencias culturales. Me fascina el cuerpo humano y también me encanta manejar.</p>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img class="img-fluid" src="/assets/yo.jpeg" alt="yo" width="350" height="285" >
+            <div class="d-grid gap-2 d-sm-flex justify-content-center mt-3">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" style=" background-color: #EECEB9; color: #765877;">CVV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--
     <section id="sobre-mi">
-      <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="/assets/yo.jpeg" alt="yo" width="290" height="240" >
-        <h1 class="display-5 fw-bold text-body-emphasis">Gabriela Cecilia Angeles Gomez
+      <div class="px-4 py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="/assets/yo.jpeg" alt="yo" width="350" height="285" >
+        <h1 style ="color: #405D72;">Gabriela Cecilia Angeles Gomez
         </h1>
-        <h2 id="profesion">Lic. Lenguas Extranjeras | Desarrolladora Fronted Jr.</h2>
+       <div id="app"></div>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">¡Hola! Soy Gabriela Cecilia Ángeles Gómez, una apasionada estudiante de lenguas en la UAEMex, actualmente en el séptimo semestre. Tengo 21 años y un profundo interés en la comunicación intercultural, lo que me ha llevado a alcanzar un nivel intermedio en inglés y un nivel básico en francés.
             <br>
@@ -70,20 +86,20 @@ href
         </div>
       </div>
     </section>
-    <section id="habilidades">
+  -->
+    <section id="habilidades" style="background-color: #FEFBD8;">
       <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">Habilidades</h2>
+        <h2 class="pb-2 border-bottom" style="color: #765877;">Habilidades</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="col d-flex align-items-start">
-            <div
-              class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" fill="currentColor" class="bi bi-laptop icono-habilidades" viewBox="0 0 16 16">
                 <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
               </svg>
               </svg>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
+              <h3 class="fs-2"> Desarrollo web </h3>
               <p>He creado páginas web responsivas gracias al bootcamp de TC. Tengo una sólida formación en programación por una carrera técnica, con experiencia en desarrollo tanto del lado del cliente como del servidor. Actualmente, mejoro mis habilidades mediante cursos adicionales para mantenerme actualizada y seguir creciendo profesionalmente.
               </p>
               </a>
@@ -99,7 +115,7 @@ href
               </svg> 
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Inglés B2</h3>
+              <h3 class="fs-2 tituloHabilidades">Inglés B2</h3>
               <p> Tengo un nivel B2 de inglés, destacando en comprensión auditiva. Entiendo la mayoría de las conversaciones y presentaciones, lo que me permite participar eficazmente. Aún mejoro otras habilidades lingüísticas, pero mi fuerte en listening facilita mi aprendizaje continuo.
               </p>
               </a>
@@ -115,9 +131,10 @@ href
               </svg>
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Trabajo en Equipo</h3>
+              <h3 class="fs-2 tituloHabilidades">Trabajo en Equipo</h3>
               <p>Soy una persona adaptable y eficiente en el trabajo en equipo. Me aseguro de distribuir las tareas equitativamente según las fortalezas de cada miembro. Valoro la gestión del tiempo, garantizando que todos completen su trabajo dentro de un plazo razonable sin comprometer la calidad, permitiendo suficiente margen para ajustes y revisiones necesarias.</p>
               </a>
+            </div>
             </div>
           </div>
         </div>
@@ -128,7 +145,6 @@ href
     <section id="proyectos">
       <div class="container px-4 py-5" id="custom-cards">
         <h2 class="pb-2 border-bottom">Proyectos</h2>
-
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
@@ -166,7 +182,7 @@ href
       <h2 class="pb-2 mb-5 border-bottom">Testimonios</h2>
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <!-- Card carousel -->
+        <!-- Card carousel -->
           <div class="carousel-item active">
             <div class="d-flex justify-content-center">
             <div class="card border-0" style="width: 18rem;">
@@ -230,7 +246,7 @@ href
 
 <section id="contacto">
   <div class="container my-5">
-    <div class="p-5 text-center bg-body-tertiary rounded-3">
+    <div class="p-5 text-center rounded-3 divContacto">
       <i class="bi bi-person-square icono-contacto" ></i>
       <h1 class="text-body-emphasis">¡Contátame!</h1>
       <p class="col-lg-8 mx-auto fs-5 text-muted">
@@ -239,17 +255,14 @@ href
       <br>
       <div class="d-inline-flex gap-2 mb-5">
         <a href="mailto:gabrielaceciliangelesgomez@gmail.com">
-          <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+          <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button" style="color: #765877;">
             Mail
           </button>
         </a>
       </div>
     </div>
   </div>
- 
-
-  
-    </section>
+</section>
 
 
   </main>
@@ -265,11 +278,15 @@ href
   </footer>
 
 
+  
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
   <!-- Script Bootrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
